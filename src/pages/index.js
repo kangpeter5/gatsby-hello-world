@@ -1,3 +1,10 @@
 import React from "react"
+import Header from "../components/header"
 
-export default () => <div>Hello world!</div>
+export default () => (
+    <div style={{color:`purple`}}>
+        <Header headerText="Home Gatsby" />
+        <p>What a world.</p>
+        <img src="https://source.unsplash.com/random/400x200" alt="" />
+    </div>
+)
